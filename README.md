@@ -37,7 +37,7 @@ Bellow is the settings.json file comes from
             "--proto_path=protos/v3",
             "--proto_path=protos/v2",
             "--proto_path=${workspaceRoot}/proto",
-            "--proto_path=${env.GOPATH}/src"
+            "--proto_path=${env.GOPATH}/src",
             "--java_out=gen/java"
         ]
     }
